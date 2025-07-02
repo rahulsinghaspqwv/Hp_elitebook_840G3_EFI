@@ -30,7 +30,7 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 
 # ScreenShots
 - I provide you some screenshots 
-![Screenshot] 
+![Screenshot](https://github.com/rahulsinghaspqwv/Hp_elitebook_840G3_EFI/blob/main/Screenshot%202025-07-02%20at%209.11.16%20PM.png)
 
 # Build raw EFI
 - Use [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) to build the raw EFI for your system if you familiar with ACPI tables and select or build the write patch for ACPI or Fake RTC SSDT.aml or fake ambient sensor and much more patches with the write kext format files. AND One important thing is choose the write SMBIOS for your machine so it works well.

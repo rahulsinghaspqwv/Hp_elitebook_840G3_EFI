@@ -17,3 +17,23 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 - The EFI folder i uploaded is already configured for Catalina 10.15.7, Bigsur 11.7.10, and Monterey 12.7.6 
 - If you want to use this folder with Ventura, Sonoma, Sequoia just add the AirportItlwm.kext for working Wifi
 - use [proper-tree](https://https://github.com/corpnewt/ProperTree) to edit the config.plist or use the [opencore-configurator](https://github.com/notiflux/OpenCore-Configurator) as your wish and add the proper AirportItlwm.kext for the particular macos version. 
+
+# Working 
+- Graphics Acceleration
+- Audio ( Internal speakers, Headphone jack, Mic) My alcid is 13. 
+- WiFi and Bluetooth ( no need to use Heliport just use the proper AirportItlwm.kext according to the macos version. and it will work ntively but partially remember that it's not going to provide you complete native support.)
+- DP and VGA (You can add external monitor).
+- Keyboard with Backlit (works great.)
+- Trackpad (workig well also support three finger gesture)
+- Brightness key also working 
+- Battery (works well and show the exact recharge cycle count)
+
+# ScreenShots
+- I provide you some screenshots 
+![Screenshot] 
+
+# Build raw EFI
+- Use [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) to build the raw EFI for your system if you familiar with ACPI tables and select or build the write patch for ACPI or Fake RTC SSDT.aml or fake ambient sensor and much more patches with the write kext format files. AND One important thing is choose the write SMBIOS for your machine so it works well.
+
+or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn your machine into full Hackintosh. 
+

@@ -31,12 +31,18 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 # ScreenShots
 - I provide you some screenshots 
 ![Screenshot](https://github.com/rahulsinghaspqwv/Hp_elitebook_840G3_EFI/blob/main/Screenshot%202025-07-02%20at%209.11.16%20PM.png)
+![Screenshot](https://github.com/rahulsinghaspqwv/Hp_elitebook_840G3_EFI/blob/main/Screenshot%202025-07-02%20at%209.11.49%20PM.png)
 
 
 # Build raw EFI
 - Use [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) to build the raw EFI for your system if you familiar with ACPI tables and select or build the write patch for ACPI or Fake RTC SSDT.aml or fake ambient sensor and much more patches with the write kext format files. AND One important thing is choose the write SMBIOS for your machine so it works well.
 
 or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn into full Hackintosh. 
+
+# Suggestion
+- If you want to work on that machine with MacOS Hackintosh or you want stable performence then i recommend you that go for MacOS Monterey 12.7.6 version it gives you the stable performence.
+- Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with highter versions
+- in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence anotherwise you will face laggy and chopy experience. 
 
 # Post Intallation
 After Successfull Installation of macos use [MountEFI](https://github.com/corpnewt/MountEFI) github tool by CorpNewt to mount the EFI folder of your MacOS Disk where you installed on your machine and Copy this EFI folder to Mounted Disk otherwith your machine will not boot into MacOS without the installation media. 

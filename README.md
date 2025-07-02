@@ -32,8 +32,23 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 - I provide you some screenshots 
 ![Screenshot](https://github.com/rahulsinghaspqwv/Hp_elitebook_840G3_EFI/blob/main/Screenshot%202025-07-02%20at%209.11.16%20PM.png)
 
+
 # Build raw EFI
 - Use [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) to build the raw EFI for your system if you familiar with ACPI tables and select or build the write patch for ACPI or Fake RTC SSDT.aml or fake ambient sensor and much more patches with the write kext format files. AND One important thing is choose the write SMBIOS for your machine so it works well.
 
-or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn your machine into full Hackintosh. 
+or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn into full Hackintosh. 
+
+# Post Intallation
+After Successfull Installation of macos use [MountEFI](https://github.com/corpnewt/MountEFI) github tool by CorpNewt to mount the EFI folder of your MacOS Disk where you installed on your machine and Copy this EFI folder to Mounted Disk otherwith your machine will not boot into MacOS without the installation media. 
+This step is necessery to booting MacOS independently.
+
+after this step ENJOY your MacOS.
+
+
+# Credits 
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) - Build the EFI with OpenCore guide
+- [itlwm](https://github.com/openintelwireless/itlwm/releases) - Intel wifi | Bluetooth
+- [Apple](https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12) - Downloading official MacOS
+- [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) - for Easy build
+- [CorpNewt](https://github.com/corpnewt/MountEFI) - for Independently Booting MacOS without Installation Media
 

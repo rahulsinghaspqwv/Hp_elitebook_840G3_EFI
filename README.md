@@ -40,7 +40,7 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn into full Hackintosh. 
 
 # Suggestion
-- If you want to work on that machine with MacOS Hackintosh or you want stable performence then i recommend you that go for MacOS Monterey 12.7.6 version it gives you the stable performence.
+- If you want to work on that machine with MacOS Hackintosh or you want stable performence then i recommend you to go for MacOS Monterey 12.7.6 version it gives you the stable performence.
 - Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with highter versions
 - in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence anotherwise you will face laggy and chopy experience. 
 

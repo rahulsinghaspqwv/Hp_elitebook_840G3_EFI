@@ -1,6 +1,6 @@
 # Hp_elitebook_840G3_EFI
 
-Working EFI of MacOS 12 Monterey 12.7.6 for Elitebook 840G3 works well. it's updated again with all the sound tested channel for switching auto between internal speaker or headphone jack wiith working graphics native support which is in my case INTEL HD 520 with 1536 vram and shared memory, Also work well wifi cards, Airdrop but partially
+Working EFI of MacOS 12 Monterey 12.7.6 for Elitebook 840G3 works well. it's updated again with all the sound tested channel for switching audio between internal speaker or headphone jack wiith working graphics native support which is in my case Intel HD 520 with 1536 vram with System Shared memory, Also works well the wifi card, Airdrop but partially
 
 Warning: Don't use this EFI with another else matching laptop approx. This EFI is fully configured for Elitebook 840G3
 
@@ -10,6 +10,7 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 - Wifi/Bluetooth : Intel Wireless AC 8260
 - Audio Codec : Conexant CX20724
 - Memory : 16GB DDR4 2133 MHz
+- SSD : MTFDDAV256TBN 256GB
 
 # Supported MacOS versions 
 - Catalina 10.15.7, BigSur 11.7.10, Monterey 12.7.6, Ventura, Sonoma Sequoia 15.0 and also this EFI supports the Latest MacOS 26 Tahoe BETA version 

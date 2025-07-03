@@ -56,5 +56,5 @@ after this step ENJOY your MacOS.
 - [itlwm](https://github.com/openintelwireless/itlwm/releases) - Intel wifi | Bluetooth
 - [Apple](https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12) - Downloading official MacOS
 - [Opencore-Simplify](https://github.com/lzhoang2801/OpCore-Simplify) - for Easy build
-- [CorpNewt](https://github.com/corpnewt/MountEFI) - for Independently Booting MacOS without Installation Media
+- [CorpNewt](https://github.com/corpnewt/MountEFI) - for Independently Booting MacOS without Installation Media 
 

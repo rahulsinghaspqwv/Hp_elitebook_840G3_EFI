@@ -42,7 +42,7 @@ or if you want to build EFI step by step go to [Opencore-Dortania](https://dorta
 # Suggestion
 - Generate your OWN SMBIOS Values - Use [Opencore-Configurator](https://github.com/notiflux/OpenCore-Configurator) for Ease.
 - If you want to work on that machine with MacOS Hackintosh or you want stable performence then i recommend you to go for MacOS Monterey 12.7.6 version it gives you the stable performence.
-- Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with highter versions
+- Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with higher versions
 - in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence otherwise you will face laggy and chopy experience. 
 
 # Post Intallation

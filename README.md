@@ -40,9 +40,10 @@ Warning: Don't use this EFI with another else matching laptop approx. This EFI i
 or if you want to build EFI step by step go to [Opencore-Dortania](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites) website it will guide you step by step for your machine to turn into full Hackintosh. 
 
 # Suggestion
+- Generate your OWN SMBIOS Values - Use [Opencore-Configurator](https://github.com/notiflux/OpenCore-Configurator) for Ease.
 - If you want to work on that machine with MacOS Hackintosh or you want stable performence then i recommend you to go for MacOS Monterey 12.7.6 version it gives you the stable performence.
 - Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with highter versions
-- in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence anotherwise you will face laggy and chopy experience. 
+- in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence otherwise you will face laggy and chopy experience. 
 
 # Post Intallation
 After Successfull Installation of macos use [MountEFI](https://github.com/corpnewt/MountEFI) github tool by CorpNewt to mount the EFI folder of your MacOS Disk where you installed on your machine and Copy this EFI folder to Mounted Disk otherwith your machine will not boot into MacOS without the installation media. 

@@ -45,6 +45,9 @@ or if you want to build EFI step by step go to [Opencore-Dortania](https://dorta
 - Don't go for higher versions because the CPU and GPU is not much powerfull to provide you a batter and stable performence with higher versions
 - in my openion maximum version is ventura with this hardware configuration . Don't go for Sonoma or Sequoia if you want stability or better performence otherwise you will face laggy and chopy experience. 
 
+# Uploading some screenshots of playing games
+
+
 # Post Intallation
 After Successfull Installation of macos use [MountEFI](https://github.com/corpnewt/MountEFI) github tool by CorpNewt to mount the EFI folder of your MacOS Disk where you installed on your machine and Copy this EFI folder to Mounted Disk otherwith your machine will not boot into MacOS without the installation media. 
 This step is necessery to booting MacOS independently.
